@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sidebar-creator/static/css/main.92c8d4eb.css",
+    "main.js": "/sidebar-creator/static/js/main.24e14fcf.js",
+    "static/js/453.a2f25dac.chunk.js": "/sidebar-creator/static/js/453.a2f25dac.chunk.js",
+    "index.html": "/sidebar-creator/index.html",
+    "main.92c8d4eb.css.map": "/sidebar-creator/static/css/main.92c8d4eb.css.map",
+    "main.24e14fcf.js.map": "/sidebar-creator/static/js/main.24e14fcf.js.map",
+    "453.a2f25dac.chunk.js.map": "/sidebar-creator/static/js/453.a2f25dac.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92c8d4eb.css",
+    "static/js/main.24e14fcf.js"
+  ]
+}
