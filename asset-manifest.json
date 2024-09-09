@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sidebar-creator/static/css/main.dd9e2b78.css",
-    "main.js": "/sidebar-creator/static/js/main.648619fd.js",
-    "static/js/453.be26793e.chunk.js": "/sidebar-creator/static/js/453.be26793e.chunk.js",
+    "main.css": "/sidebar-creator/static/css/main.c3ee94f8.css",
+    "main.js": "/sidebar-creator/static/js/main.bf2c5b02.js",
+    "static/js/453.a2f25dac.chunk.js": "/sidebar-creator/static/js/453.a2f25dac.chunk.js",
     "index.html": "/sidebar-creator/index.html",
-    "main.dd9e2b78.css.map": "/sidebar-creator/static/css/main.dd9e2b78.css.map",
-    "main.648619fd.js.map": "/sidebar-creator/static/js/main.648619fd.js.map",
-    "453.be26793e.chunk.js.map": "/sidebar-creator/static/js/453.be26793e.chunk.js.map"
+    "main.c3ee94f8.css.map": "/sidebar-creator/static/css/main.c3ee94f8.css.map",
+    "main.bf2c5b02.js.map": "/sidebar-creator/static/js/main.bf2c5b02.js.map",
+    "453.a2f25dac.chunk.js.map": "/sidebar-creator/static/js/453.a2f25dac.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd9e2b78.css",
-    "static/js/main.648619fd.js"
+    "static/css/main.c3ee94f8.css",
+    "static/js/main.bf2c5b02.js"
   ]
 }
