@@ -104,8 +104,9 @@ const CTACreator = () => {
   const handleGenerateEmbedCode = () => {
     const styles = generateStyles();
     const html = generateHTML();
-    const code = `<!-- If making a sidebar Paste this section of the code in the Site Layout Settings under Tracking Links / Conversion Codes in the <head> section -->
-	<!--  Otherwise create paste all of the "Generated Embed Code" into a new Shared Widget by going to Content > Shared Widgets then click "create new shared widget" and select JavaScript/Style Code. Then just past in the code and click "save" -->
+    const code = `<!-- If making a sidebar paste this style section of the code in the Site Layout Settings under Tracking Links / Conversion Codes in the <head> section -->
+
+<!--  Otherwise paste all of the "Generated Embed Code" into a new Shared Widget by going to Content > Shared Widgets then click "create new shared widget" and select JavaScript/Style Code. Then just past in the code and click "save" -->
 
 <style>${styles}</style>
 
