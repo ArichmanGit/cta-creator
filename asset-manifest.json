@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sidebar-creator/static/css/main.1f6849e0.css",
-    "main.js": "/sidebar-creator/static/js/main.5ff15f93.js",
-    "static/js/453.a2f25dac.chunk.js": "/sidebar-creator/static/js/453.a2f25dac.chunk.js",
-    "index.html": "/sidebar-creator/index.html",
-    "main.1f6849e0.css.map": "/sidebar-creator/static/css/main.1f6849e0.css.map",
-    "main.5ff15f93.js.map": "/sidebar-creator/static/js/main.5ff15f93.js.map",
-    "453.a2f25dac.chunk.js.map": "/sidebar-creator/static/js/453.a2f25dac.chunk.js.map"
+    "main.css": "/cta-creator/static/css/main.1f6849e0.css",
+    "main.js": "/cta-creator/static/js/main.51f98d22.js",
+    "static/js/453.78e97a88.chunk.js": "/cta-creator/static/js/453.78e97a88.chunk.js",
+    "index.html": "/cta-creator/index.html",
+    "main.1f6849e0.css.map": "/cta-creator/static/css/main.1f6849e0.css.map",
+    "main.51f98d22.js.map": "/cta-creator/static/js/main.51f98d22.js.map",
+    "453.78e97a88.chunk.js.map": "/cta-creator/static/js/453.78e97a88.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f6849e0.css",
-    "static/js/main.5ff15f93.js"
+    "static/js/main.51f98d22.js"
   ]
 }
