@@ -1,11 +1,11 @@
 import React from 'react';
-import SidebarCreator from './SidebarCreator';
+import CTACreator from './CTACreator';
 import './index.css';
 
 function App() {
   return (
     <div className="App">
-      <SidebarCreator />
+      <CTACreator />
     </div>
   );
 }

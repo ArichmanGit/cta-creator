@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const SidebarCreator = () => {
+const CTACreator = () => {
   const [background, setBackground] = useState('#f0f0f0');
   const [buttonColor, setButtonColor] = useState('#007bff');
   const [pictureOffset, setPictureOffset] = useState(0);
@@ -24,19 +24,19 @@ const SidebarCreator = () => {
   const [generatedCode, setGeneratedCode] = useState('');
   
   // New state variables
-  const [backgroundHeight, setBackgroundHeight] = useState(300);
+  const [backgroundHeight, setBackgroundHeight] = useState(230);
   const [buttonTextColor, setButtonTextColor] = useState('#ffffff');
   const [descriptionTextColor, setDescriptionTextColor] = useState('#000000');
 
   const generateStyles = () => `
-    .sidebar-container {
+    .cta-container {
       display: flex;
       justify-content: center;
       align-items: center;
       width: 100%;
       padding: 20px;
     }
-    .sidebar {
+    .cta {
       background-color: ${background};
       padding: 20px;
       width: ${backgroundWidth}px;
@@ -80,8 +80,8 @@ const SidebarCreator = () => {
   `;
 
   const generateHTML = () => `
-    <div class="sidebar-container">
-      <div class="sidebar">
+    <div class="cta-container">
+      <div class="cta">
         <div class="picture"></div>
         ${showDescription ? `<div class="description">${description}</div>` : ''}
         <a href="${buttonLink}" class="cta-button">${buttonText}</a>
@@ -104,10 +104,13 @@ const SidebarCreator = () => {
   const handleGenerateEmbedCode = () => {
     const styles = generateStyles();
     const html = generateHTML();
-    const code = `<!-- Paste this section of the code in the Site Layout Settings under Tracking Links / Conversion Codes in the <head> section -->
+    const code = `<!-- If making a sidebar Paste this section of the code in the Site Layout Settings under Tracking Links / Conversion Codes in the <head> section -->
+	<!--  Otherwise create paste all of the "Generated Embed Code" into a new Shared Widget by going to Content > Shared Widgets then click "create new shared widget" and select JavaScript/Style Code. Then just past in the code and click "save" -->
+
 <style>${styles}</style>
 
-<!-- Paste this section of the code in the Content > Sidebars and then in the source window of a new sidebar -->
+<!--  If making a sidebar paste this section of the code in Content > Sidebars and then in the source window of a new sidebar -->
+
 ${html}`;
     setGeneratedCode(code);
   };
@@ -116,7 +119,7 @@ ${html}`;
     <div className="p-4 bg-gray-100 min-h-screen">
       <div className="flex h-screen">
         <div className="w-1/2 p-4 overflow-y-auto">
-          <h1 className="text-2xl font-bold mb-4 text-center">CTA Sidebar Creator</h1>
+          <h1 className="text-2xl font-bold mb-4 text-center">CTA Creator</h1>
           
           <div className="space-y-4">
             <div>
@@ -362,4 +365,4 @@ ${html}`;
   );
 };
 
-export default SidebarCreator;
+export default CTACreator;
